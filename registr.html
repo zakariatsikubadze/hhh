@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="registrop.css">
+</head>
+<body>
+<div class="container">
+  <div class="form-box">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+                <div class="row">
+                    <input type="text" id="firstName" placeholder="First Name *" required>
+                    <input type="text" id="lastName" placeholder="Last Name *" required>
+                </div>
+                <input type="email" id="email" placeholder="Email Address *" required>
+                <div class="radio-group">
+                    <label><input type="radio" name="query" checked> General Enquiry</label>
+                    <label><input type="radio" name="query"> Support Request</label>
+                </div>
+                <textarea id="message" placeholder="Message *" required></textarea>
+                <label class="custom-checkbox">
+                    <input type="checkbox" id="consent" required>
+                    <span class="checkmark"></span>
+                    I consent to being contacted by the team
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+  </div>
+</div>
+<script src="registrdon.js"></script>
+</body>
+</html>
